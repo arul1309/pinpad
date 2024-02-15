@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css" />
+<title>Pinpad</title>
+</head>
+<body>
+<div class="container">
+  <img src="./images/image.png" alt="Teahortons">
+  <div class="pinpad">
+    <div id="pinContainer">
+      <div id="pinDisplay"></div>
+      <div id="pinButtons">
+        <button onclick="addDot(1)">1</button>
+        <button onclick="addDot(2)">2</button>
+        <button onclick="addDot(3)">3</button><br>
+        <button onclick="addDot(4)">4</button>
+        <button onclick="addDot(5)">5</button>
+        <button onclick="addDot(6)">6</button><br>
+        <button onclick="addDot(7)">7</button>
+        <button onclick="addDot(8)">8</button>
+        <button onclick="addDot(9)">9</button><br>
+        <button onclick="clearPin()">Clear</button>
+        <button onclick="addDot(0)">0</button>
+        <button onclick="deleteLastDigit()">&#60;</button>
+      </div>
+      <button class="loginButton" onclick="login()">Login</button>
+    </div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
