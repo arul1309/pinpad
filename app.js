@@ -16,6 +16,7 @@ function clearPin() {
     pinDisplay.textContent = ""; 
 }
 
+
 function login() {
     var pinDisplay = document.getElementById("pinDisplay");
     pinDisplay.textContent = ""; 
